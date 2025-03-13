@@ -1,0 +1,20 @@
+# Python virtual environment
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS junk
+.DS_Store
+
+# Logs and temp files
+*.log
+*.pid
+
+# Node.js stuff (shouldn’t be here, but just in case)
+node_modules/
+package-lock.json
