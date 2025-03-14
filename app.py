@@ -1,7 +1,10 @@
 from flask import Flask, jsonify
+from flask_cors import CORS
 import random
+from slugify import slufigy
 
 app = Flask(__name__)
+CORS(app)
 
 quotes = [
     {"text": "Keep thy mind in hell, and despair not.", "author": "St. Silouan the Athonite", "author_slug": "st-silouan-the-athonite", "tags": ["spirituality", "resilience"]},
